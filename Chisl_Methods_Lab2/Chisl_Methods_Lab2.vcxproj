@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GaussMethod.cpp" />
     <ClCompile Include="Main_App.cpp" />
+    <ClCompile Include="NewtonMethod.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main_Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
